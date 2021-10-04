@@ -1,0 +1,74 @@
+.cabecalhoPrincipal .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav {
+    display: flex;
+}
+
+.rodapePrincipal-patrocinadores .container {
+   display: flex;
+   justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+   align-items: center;
+   display: flex;
+   justify-content: space-around;
+   margin-right: 5%;
+   width: 70%;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+    display:  flex;
+    flex-flow: column wrap;
+    height: 250px;
+}
+
+.conteudoPrincipal-cursos {
+    display:  flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+    margin: 1%;
+    width: 23%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+	margin-right: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+	margin-left: 0;
+}
+
+.videoSobre .container {
+    display: flex;
+}
+
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.videoSobre-sobre-list {
+    flex-grow: 1;
+}
+
+.videoSobre-video {
+    flex-grow: 1 ;
+    flex-shrink: 2;
+}
